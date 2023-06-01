@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', cursive;
+}
+
+.navbar{
+  display: flex;
+  flex-flow: row wrap;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background: white;
+
+}
+.logo{
+  flex: 20%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.logo h1{
+  font-family: 'Lobster', cursive;
+  color: #180F4A;
+  font-size: 33px;
+}
+
+.menu{
+  flex: 70%;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a {
+  color: #180F4A;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+
+}
+
+.menu a:hover{
+  color: #FF2978;
+  border-top: 4px solid  #180F4A;
+}
+
+#botao{
+  background: #180F4A;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10%;
+  margin-left: 5%;
+
+}
+
+#botao:hover{
+  border: none;
+  background: #FF2978;
+}
+
+.header{
+  display: flex;
+  flex-flow: row wrap;
+  background: white;
+  justify-content: cener;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.headline{
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.headline h2{
+  font-weight: 900;
+  font-size: 20px;
+  color: #180F4A;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', cursive;
+}
+
+.headline p {
+  color: grey;
+  text-align: left;
+}
+
+.contact-btn{
+  display: inline-block;
+  background-color: #FF2978;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing:1px;
+
+}
+
+.contact-btn:hover{
+  background: #180F4A;
+
+}
+
+.img-headline{
+  margin-right: 5%;
+  flex: 40%;
+  max-width: 90%;
+  text-align: right;
+}
+
+section{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 5%;
+
+}
+
+section h2{
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #180F4A;
+
+}
+.servicos{
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card{
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #FF2978;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.texto-oculto{
+  display: none;
+}
+
+.card:hover{
+  background: #FF2978;
+  color: white;
+  padding: 30x;
+}
+
+.card:hover img{
+  display: none;
+}
+
+.card:hover .card-text{  /*Sumirá o texto do card ao passar o mouse */
+  display: none;
+}
+
+.card:hover .texto-oculto{  /*Irá aparecer o texto oculto selecionado ao passar no card */
+  display: block;
+}
+
+.card img{
+  width: 60%;
+}
+
+footer{
+  margin-top: 0px;
+  background-image: linear-gradient(180deg, #180F4A, #090422, black);
+  text-align: center;
+  border-top: 5px solid #FF2978;
+  color: white;
+  padding: 30px;
+}
+
+.agencia{
+  font-family: 'Lobster', cursive; 
+}
+
+.wpp{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 58px;
+}
+
+.menu-footer{
+  display: none;
+}
+
+.right{
+  margin-bottom: 15px;
+  letter-spacing: 8px;
+}
